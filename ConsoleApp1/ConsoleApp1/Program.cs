@@ -20,7 +20,7 @@ namespace ConsoleApp1
             g %= 100; // g = g % 100
             if (g >= 50)
             {
-                Console.WriteLine("50: " + (g / 50));
+                Console.WriteLine("\n50: " + (g / 50));
             }
             g %= 50;
             if (g >= 20)
@@ -37,7 +37,7 @@ namespace ConsoleApp1
             {
                 Console.WriteLine("5: " + (g / 5));
             }
-            g %= 2;
+            g %= 5;
             if (g >= 2)
             {
                 Console.WriteLine("2: " + (g / 2));
