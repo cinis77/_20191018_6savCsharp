@@ -15,7 +15,7 @@ namespace _20191021_dalijimosi7Sandauga
             {
                 if (i % 7 == 0)
                 {
-                    sandauga *= i;
+                    sandauga *= i; // sandauga = sandauga * i
                 }
             }
             Console.WriteLine(sandauga);
