@@ -13,13 +13,13 @@ namespace ConsoleApp2
             Console.WriteLine("Iveskite skaiciu");
             int skaicius = Convert.ToInt32(Console.ReadLine());
             int factorialas = 1;
-            int sandauga = 1;
+            int sand = 1;
 
-            while (sandauga < skaicius)
+            while (sand < skaicius)
             {
-                sandauga *= ++factorialas;
+                sand *= ++factorialas;
             }
-            if (sandauga == skaicius)
+            if (sand == skaicius)
             {
                 Console.WriteLine("Factorialas yra " + factorialas + "!");
             }
